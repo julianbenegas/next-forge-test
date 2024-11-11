@@ -1,0 +1,85 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "next-forge docs",
+  "logo": {
+    "dark": "/images/logo-dark.svg",
+    "light": "/images/logo-light.svg"
+  },
+  "background": { "style": "windows" },
+  "codeBlock": {
+    "mode": "auto"
+  },
+  "favicon": "/images/icon.png",
+  "layout": "topnav",
+  "colors": {
+    "primary": "#f35815",
+    "light": "#f35815",
+    "dark": "#f35815",
+    "anchors": {
+      "from": "#f35815",
+      "to": "#f35815"
+    }
+  },
+  "topbarCtaButton": {
+    "type": "github",
+    "url": "https://github.com/haydenbleasel/next-forge"
+  },
+  "search": {
+    "prompt": "Search or ask..."
+  },
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": ["overview", "setup", "deploying", "faq"]
+    },
+    {
+      "group": "Structure",
+      "pages": ["structure/apps", "structure/packages"]
+    },
+    {
+      "group": "Features",
+      "pages": [
+        "analytics",
+        "authentication",
+        "blog",
+        "bundle-analysis",
+        "cron",
+        "dark-mode",
+        {
+          "group": "Database and ORM",
+          "pages": [
+            "database/overview",
+            "database/drizzle",
+            "database/planetscale",
+            "database/prisma-postgres"
+          ]
+        },
+        "email",
+        "env",
+        "flags",
+        "formatting",
+        {
+          "group": "Observability",
+          "pages": [
+            "observability/error-capture",
+            "observability/debugging",
+            "observability/logging",
+            "observability/uptime"
+          ]
+        },
+        "payments",
+        "security",
+        {
+          "group": "SEO",
+          "pages": ["seo/metadata", "seo/json-ld", "seo/sitemap"]
+        },
+        "testing"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/haydenbleasel",
+    "github": "https://github.com/haydenbleasel/next-forge",
+    "linkedin": "https://www.linkedin.com/in/haydenbleasel"
+  }
+}
