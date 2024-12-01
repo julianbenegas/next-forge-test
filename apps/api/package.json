@@ -22,7 +22,7 @@
     "@neondatabase/serverless": "^0.10.3",
     "next": "15.0.3",
     "react": "19.0.0-rc-ed15d500-20241110",
-    "react-dom": "19.0.0-rc-ed15d500-20241110",
+    "react-dom": "19.0.0-rc.1",
     "svix": "^1.39.0"
   },
   "devDependencies": {
