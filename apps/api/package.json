@@ -21,7 +21,7 @@
     "@sentry/nextjs": "^8.37.1",
     "@neondatabase/serverless": "^0.10.3",
     "next": "15.0.3",
-    "react": "19.0.0-rc-ed15d500-20241110",
+    "react": "19.0.0-rc.1",
     "react-dom": "19.0.0-rc-ed15d500-20241110",
     "svix": "^1.39.0"
   },
